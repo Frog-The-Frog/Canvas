@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+  font-family: monospace;
+  font-size: 125%;
+  bottom: 0;
+  right: 25%;
+  left: 25%;
+  position: absolute;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  padding: 8px 12px;
+  z-index: 10;
+  background-color: #f1f1f1;
+  border: 2px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#slider-label {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 10;
+}
+
+#size-slider {
+  position: absolute;
+  top: 35px;
+  left: 150px;
+  z-index: 10;
+}
